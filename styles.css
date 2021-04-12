@@ -1,0 +1,102 @@
+body{
+
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* -------------------- NAV BAR -------------------- */
+.navbar{
+ background-color: rgba(221, 221, 221, 0.576);
+}
+.navbar-nav a, .navbar-brand{
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover, .navbar-brand:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    transition: 0.5s;
+    color: rgb(221, 144, 0) !important;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!SECTION 1 !!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.section-1{
+    background-color: rgba(221, 221, 221, 0.576);
+}
+@media(max-width:768px){
+    .section-1-row img{
+        width: 100%;
+        height:auto;
+    }
+}
+.section-1-row h1{
+    color: rgb(255, 166, 0);
+    font-weight: bolder;
+}
+.section-1-row h6{
+    letter-spacing: .2rem;
+}
+.section-1-div-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-1-div-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media(min-width:768px){
+    .section-1-div-text{
+        padding: 30px;
+    }
+}
+@media(max-width:768px){
+    .section-1-div-text{
+        padding: 8px;
+    }
+}
+.section-1-div-text .btn{
+    width: 150px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-weight: bold;
+}
+.section-1-div-text .btn:hover{
+    background-color: rgb(228, 149, 3);
+    transition: 0.5s;
+    border: 1px solid white;
+}
+/* ---------  CARDS  ------------ */
+.card-1{
+   background-color: rgb(245, 118, 28);
+}
+.card-2{
+    background-color: rgb(255, 141, 59);
+}
+.card-3{
+    background-color: rgba(255, 174, 0, 0.994);
+}
+.card-title{
+    text-transform: uppercase;
+}
+.card .btn{
+    font-weight: bold;
+}
+.card .btn:hover{
+    background-color: rgb(228, 149, 3);
+    transition: 0.5s;
+}
+.card-body{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* ---------------  ICONS  --------------- */
+.bi{
+    font-size: 50px;
+    padding: 8px;
+    border-radius: 20%;
+    margin: 10px;
+}
+/* ------------------        ------------------- */
