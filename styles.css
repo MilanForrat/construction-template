@@ -1,5 +1,8 @@
 body{
-
+    
+}
+.container{
+    max-width: 1200px;
 }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -24,6 +27,7 @@ body{
 .section-1-row h1{
     color: rgb(255, 166, 0);
     font-weight: bolder;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 .section-1-row h6{
     letter-spacing: .2rem;
@@ -37,6 +41,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.section-2 .card-title, .section-2 .bi{
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 .section-1-div-text .btn{
     width: 150px;
@@ -121,6 +128,7 @@ body{
     z-index: -1;
     position: relative;
     top: -160px;
+    border-radius: 5px;
 }
 @media(max-width: 768px){
     .section-3 img{
@@ -136,14 +144,53 @@ body{
     .section-3 img{
         margin-top: 15px;
     }
+    .bloc-orange h5{
+        display: none;
+    }
 }
 @media(min-width:768px){
     .section-3-col-img-1{
     margin-left: 40px;
     }
+    .bloc-orange{
+        left: -50px;
+        
+    }
+    .section-3 .row{
+        padding-left: 100px;
+    }
 }
-
+@media(min-width:768px){
+    .bloc-orange{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .bloc-orange h5{
+        margin-right: 2%;
+        text-shadow: 1px 1px 2px rgba(255, 174, 0, 0.713);
+    }
+    .bloc-orange .bi{
+        font-size: 32px;
+        text-shadow: 5px 1px 2px rgba(255, 174, 0, 0.713);
+    }
+}
+@media(min-width:1050px){
+    .bloc-orange h5{
+        margin-right: 8%;
+        font-size: 25px;
+    }
+}
+.section-3 .row{
+    padding-top: 50px;
+}
 .section-3 img{
     border-radius: 1%;
     box-shadow: 5px 5px 2px rgba(255, 174, 0, 0.713);
 }
+.main-title{
+    color: rgb(255, 166, 0);
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
